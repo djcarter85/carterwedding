@@ -1,13 +1,4 @@
 <header class="border-bottom">
-  <div class="container pt-3">
-    <h1 class="display-3 text-center">Matthew & Sarah</h1>
-  </div>
-
-  <div class="container">
-    <nav class="nav justify-content-center py-3">
-      {% for item in site.data.header-links %}
-      <a class="nav-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-      {% endfor %}
-    </nav>
-  </div>
+  {% include title.html %}
+  {% include nav.html %}
 </header>
