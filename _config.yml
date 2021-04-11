@@ -1,1 +1,3 @@
 baseurl: /kintonwedding
+sass:
+  sass_dir: css
