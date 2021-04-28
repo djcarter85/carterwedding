@@ -1,0 +1,12 @@
+.blockquote {
+  margin: $spacer;
+
+  padding-left: $spacer;
+  padding-right: $spacer;
+
+  border-left: $table-border-width solid $table-border-color;
+  
+  p {
+    font-style: italic;
+  }
+}
